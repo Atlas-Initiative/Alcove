@@ -13,8 +13,20 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.jetbrains.kotlin:kotlin-stdlib:1.7.10")
+    api("org.jetbrains.kotlin:kotlin-stdlib:1.7.10")
     testImplementation(kotlin("test"))
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("jitpack") {
+            groupId = "com.github.Atlas-Initiative"
+            artifactId = "Alcove"
+            version = rootProject.version.toString()
+
+            from(components["java"])
+        }
+    }
 }
 
 tasks.test {
