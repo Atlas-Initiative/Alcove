@@ -5,7 +5,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.github.Atlas-Initiave"
+group = "org.atlasin"
 version = "1.0.1"
 
 repositories {
