@@ -1,4 +1,6 @@
-# Alcove [![Atlas Initiative](https://circleci.com/gh/Atlas-Initiative/Alcove.svg?style=svg)](https://circleci.com/gh/Atlas-Initiative/Alcove)
+# Alcove [![Atlas Initiative](https://circleci.com/gh/Atlas-Initiative/Alcove.svg?style=svg)](https://circleci.com/gh/Atlas-Initiative/Alcove)[![](https://jitpack.io/v/Atlas-Initiative/Alcove.svg)](https://jitpack.io/#Atlas-Initiative/Alcove)
+
+
 
 ## Purpose
 This library was built to provide a clean, lightweight solution for logging on the jvm with kotlin.
@@ -52,5 +54,17 @@ You can also change the log level
 ```kotlin
 alcove(LogLevel.E) {
     "Oh no, something went wrong!"
+}
+```
+
+## Install
+
+```kotlin
+repositories {
+    maven(url = "https://jitpack.io")
+}
+
+dependencies {
+    implementation("com.github.Atlas-Initiative:Alcove:1.x.x")
 }
 ```
