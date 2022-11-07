@@ -66,7 +66,7 @@ class Sprout(
                 }.let { msg -> "[ ${LogLevel.values()[level - 1]} ] - $msg" }.let { taggedMessage ->
                     if (args.isNullOrEmpty()) taggedMessage else taggedMessage.format(args)
                 }.let { msg ->
-                    "$msg ${throwable?.stackTraceToString()}"
+                    "$msg \n ${throwable?.stackTraceToString() ?: ""}"
                 }.let { msg ->
                     "${LocalDateTime.now()} | $msg"
                 }
