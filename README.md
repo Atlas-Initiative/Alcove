@@ -1,4 +1,4 @@
-# Alcove [![Atlas Initiative](https://circleci.com/gh/Atlas-Initiative/Alcove.svg?style=svg)](https://circleci.com/gh/Atlas-Initiative/Alcove)[![](https://jitpack.io/v/Atlas-Initiative/Alcove.svg)](https://jitpack.io/#Atlas-Initiative/Alcove)
+# Alcove [![Atlas Initiative](https://circleci.com/gh/Atlas-Initiative/Alcove.svg?style=svg)](https://circleci.com/gh/Atlas-Initiative/Alcove) [![](https://jitpack.io/v/Atlas-Initiative/Alcove.svg)](https://jitpack.io/#Atlas-Initiative/Alcove)
 
 
 
