@@ -1,4 +1,4 @@
-# Alcove
+# Alcove [![Atlas Initiative](https://circleci.com/gh/Atlas-Initiative/Alcove.svg?style=svg)](https://circleci.com/gh/Atlas-Initiative/Alcove)
 
 ## Purpose
 This library was built to provide a clean, lightweight solution for logging on the jvm with kotlin.
