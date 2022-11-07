@@ -2,10 +2,11 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.7.10"
+    `maven-publish`
 }
 
-group = "org.atlasin"
-version = "1.0-SNAPSHOT"
+group = "com.github.Atlas-Initiave"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
